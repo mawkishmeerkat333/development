@@ -68,12 +68,13 @@ function App() {
           <Navbar.Brand href="#home">
             <img className="logo" src="images/south-carolina-parks-logo.png"></img>
           </Navbar.Brand>
-          <h1>TRIP PLANNER</h1>
+          <h1 className="title">Trip Planner</h1>
         </Container>
       </Navbar>
       <Container className="content">
         <Row>
-          <Col xs={8}>
+          <Col xs={1}></Col>
+          <Col xs={6}>
             <div>
               {filteredData.map(item => (
                 <ParkItem key={item.name} item={item} onClick={handleOnClick} added={Object.keys(aggregator).includes(item.name)}></ParkItem>
@@ -83,23 +84,31 @@ function App() {
           <Col xs={4}>
             <div className='wrapper'>
               <div className='filters-wrapper'>
-                <h2>Filters & Sorting</h2>
-                <div>
-                  <h4>Regions</h4>
-                  <Checkbox name="region" id="coast" value="Coast" label="Coast" filter={selectFilterType} reset={reset}/>
-                  <Checkbox name="region" id="midlands" value="Midlands" label="Midlands" filter={selectFilterType} reset={reset}/>
-                  <Checkbox name="region" id="mountains" value="Mountains" label="Mountains" filter={selectFilterType} reset={reset}/>
-                </div>
-                <div>
-                  <h4>Wifi availablity</h4>
-                  <Checkbox name="wifi" id="wifi" value="true" label="Wifi available" filter={selectFilterType} reset={reset}/>
-                  <Checkbox name="wifi" id="nowifi" value="false" label="No wifi available" filter={selectFilterType} reset={reset}/>
-                </div>
+                <h2 className="subtitle">Filters & Sorting</h2>
+                <Container>
+                  <Row>
+                    <Col xs={6}>
+                      <div>
+                        <h4 className='microtitle'>Regions</h4>
+                        <Checkbox name="region" id="coast" value="Coast" label="Coast" filter={selectFilterType} reset={reset}/>
+                        <Checkbox name="region" id="midlands" value="Midlands" label="Midlands" filter={selectFilterType} reset={reset}/>
+                        <Checkbox name="region" id="mountains" value="Mountains" label="Mountains" filter={selectFilterType} reset={reset}/>
+                      </div>
+                    </Col>
+                    <Col xs={6}>
+                      <div>
+                        <h4 className='microtitle'>Wifi</h4>
+                        <Checkbox name="wifi" id="wifi" value="true" label="Wifi available" filter={selectFilterType} reset={reset}/>
+                        <Checkbox name="wifi" id="nowifi" value="false" label="No wifi available" filter={selectFilterType} reset={reset}/>
+                      </div>
+                    </Col>
+                  </Row>
+                </Container>
                 <div className='reset-button-wrapper'>
                   <button onClick={resetType}>Reset filters</button>
                 </div>
                 <div name="sort-wrapper">
-                  <h4>Sort</h4>
+                  <h4 className='microtitle'>Sort</h4>
                   <div>
                     <input type="radio" name="sorted" id="Unsorted" onChange={handleSort} defaultChecked/>
                     <label htmlFor="Unsorted">Alphabetical</label>
@@ -111,14 +120,15 @@ function App() {
                 </div>
               </div>
               <div className='aggregator'>
-                <h2>Total cost of trip</h2>
-                <h4>${Object.values(aggregator).reduce((accumulator, currentValue) => accumulator + currentValue, 0)}/adult</h4>
+                <h2 className="subtitle">Total cost of trip</h2>
+                <h4 className='microtitle'>${Object.values(aggregator).reduce((accumulator, currentValue) => accumulator + currentValue, 0)}/adult</h4>
                 {Object.keys(aggregator).map((item) => (
-                <p>{item} State Park: ${aggregator[item]}/adult</p>
+                <p className='aggregate'>{item} State Park: ${aggregator[item]}/adult</p>
                 ))}
               </div>
             </div>
           </Col>
+          <Col xs={1}></Col>
         </Row>
       </Container>
     </div>

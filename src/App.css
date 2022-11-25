@@ -64,8 +64,8 @@
 .wrapper {
   float: right;
   position: sticky;
-  top: 135px;
-  width: 20vw;
+  top: 115px;
+  width: 25vw;
 }
 
 .filters-wrapper {
@@ -90,6 +90,10 @@
   filter: drop-shadow(0 5px 0.1rem #817050);
 }
 
+.aggregate {
+  font-size: 0.75rem;
+}
+
 .reset-button-wrapper {
   text-align: center;
 }
@@ -101,25 +105,33 @@
 }
 
 .logo {
-  width: 170px;
-  height: 100px;
+  width: 136px;
+  height: 80px;
 }
 
 .content {
   margin: 10px;
 }
 
-h1 {
+.title {
   color: white;
-  font-size: 10rem;
+  font-size: 2rem;
   font-family: 'Zilla Slab';
-  font-weight: 700;
+  font-weight: 500;
+  text-transform: uppercase;
 }
 
-h2 {
+.subtitle {
   font-family: 'Zilla Slab';
-  font-weight: 700;
+  font-weight: 500;
+  font-size: 1.5rem;
   text-align: center;
+  text-transform: uppercase;
+}
+
+.microtitle {
+  font-size: 1rem;
+  font-family: 'Zilla Slab';
   text-transform: uppercase;
 }
 
