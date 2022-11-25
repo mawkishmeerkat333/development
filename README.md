@@ -17,3 +17,4 @@ Beyond the overall `App`, there are two components: `ParkItem` and `Checkbox`. T
 
 ### How the User Triggers State Changes
 
+The user triggers state changes by clicking the "(Add to)/(Remove from) Cart" button on a `ParkItem` component, by clicking the "Reset Filters" button, by (un)checking any of the filters, and by selecting one of the sorting option radio buttons.
