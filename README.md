@@ -11,6 +11,8 @@ The trip planner allows a user to peruse SC state parks by region and wifi avail
 
 ### Organization of Components
 
+Beyond the overall `App`, there are two components: `ParkItem` and `Checkbox`. The `ParkItem` component is created for each park by a mapping function in `App.js`, and each `ParkItem` includes the title, region, photo, description, wifi availibility, and price of admission. Moreover, each `ParkItem` has a state variable to keep track of whether is has been added to the aggregator. The `Checkbox` component includes an input of `type=checkbox` and a label, as well as a state variable to keep track of whether it is checked.
+
 ### How Data is Passed Down Through Components
 
 ### How the User Triggers State Changes
