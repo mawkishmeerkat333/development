@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/development/static/css/main.e98d6e17.css",
-    "main.js": "/development/static/js/main.ba9f8e7e.js",
+    "main.css": "/development/static/css/main.e406f0e6.css",
+    "main.js": "/development/static/js/main.637043da.js",
     "static/media/zilla-slab-v11-latin-700.ttf": "/development/static/media/zilla-slab-v11-latin-700.7a643b2c7f839f6b255e.ttf",
     "static/media/zilla-slab-v11-latin-600.ttf": "/development/static/media/zilla-slab-v11-latin-600.90d3ece743de7bfc8bf6.ttf",
     "static/media/zilla-slab-v11-latin-regular.ttf": "/development/static/media/zilla-slab-v11-latin-regular.5bb15d3d08f30966b0fa.ttf",
@@ -23,11 +23,11 @@
     "static/media/zilla-slab-v11-latin-600.woff2": "/development/static/media/zilla-slab-v11-latin-600.d5e357b122acdec1b160.woff2",
     "static/media/zilla-slab-v11-latin-700.woff2": "/development/static/media/zilla-slab-v11-latin-700.a5380236c11851b62c95.woff2",
     "index.html": "/development/index.html",
-    "main.e98d6e17.css.map": "/development/static/css/main.e98d6e17.css.map",
-    "main.ba9f8e7e.js.map": "/development/static/js/main.ba9f8e7e.js.map"
+    "main.e406f0e6.css.map": "/development/static/css/main.e406f0e6.css.map",
+    "main.637043da.js.map": "/development/static/js/main.637043da.js.map"
   },
   "entrypoints": [
-    "static/css/main.e98d6e17.css",
-    "static/js/main.ba9f8e7e.js"
+    "static/css/main.e406f0e6.css",
+    "static/js/main.637043da.js"
   ]
 }
