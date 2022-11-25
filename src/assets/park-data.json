@@ -1,0 +1,106 @@
+[
+  {
+    "name": "Cheraw",
+    "region": "Midlands",
+    "description": "Cypress wetlands line Lake Juniper and can be explored by kayaks and canoes or via a boardwalk that runs along the lake.",
+    "admission": 0.00,
+    "wifi": true,
+    "image": "images/cheraw.png"
+  },
+  {
+    "name": "Colleton",
+    "region": "Coast",
+    "description": "A paddler’s paradise, this Lowcountry park sits a short distance from I-95 and connects to Givhans Ferry State Park via 23 miles of blackwater river. ",
+    "admission": 0.00,
+    "wifi": true,
+    "image": "images/colleton.png"
+  },
+  {
+    "name": "Devils Fork",
+    "region": "Mountains",
+    "description": "The mountain spring-fed Lake Jocassee encompassed by the Jocassee Gorges, waterfalls accessible only by boat and some of the best South Carolina trout fishing are all part of the allure of Devils Fork State Park.",
+    "admission": 8.00,
+    "wifi": true,
+    "image": "images/devils-fork.png"
+  },
+  {
+    "name": "Dreher Island",
+    "region": "Midlands",
+    "description": "Dreher Island State Park spans three islands, 348 acres and provides access to 12 miles of Lake Murray shoreline.",
+    "admission": 3.00,
+    "wifi": true,
+    "image": "images/dreher-island.png"
+  },
+  {
+    "name": "Edisto Beach",
+    "region": "Coast",
+    "description": "Rich in Native American history, Edisto Beach on Edisto Island is one of four oceanfront state parks in South Carolina.",
+    "admission": 8.00,
+    "wifi": true,
+    "image": "images/edisto-beach.png"
+  },
+  {
+    "name": "Givhans Ferry",
+    "region": "Coast",
+    "description": "A natural retreat in the Lowcountry woods, Givhans Ferry State Park sits at the end of the 23-mile long stretch of Edisto River kayaking paradise known as the Edisto River kayak and canoe trail that begins at Colleton State Park.",
+    "admission": 6.00,
+    "wifi": true,
+    "image": "images/givhans-ferry.png"
+  },
+  {
+    "name": "Hunting Island",
+    "region": "Coast",
+    "description": "Hunting Island is South Carolina’s single most popular state park, attracting more than a million visitors a year, as well as a vast array of land and marine wildlife. Five miles of pristine South Carolina beaches, thousands of acres of marsh and maritime forest, a saltwater lagoon and ocean inlet are all part of the park’s natural allure.",
+    "admission": 8.00,
+    "wifi": true,
+    "image": "images/hunting-island.png"
+  },
+  {
+    "name": "Jones Gap",
+    "region": "Mountains",
+    "description": "Visitors can find the unforgettable peace and repose of a deep mountain cove at Jones Gap State Park. Trails and 13,000 acres of pristine mountain woodlands join the park with Caesars Head in what is known as the Mountain Bridge Wilderness Area.",
+    "admission": 6.00,
+    "wifi": false,
+    "image": "images/jones-gap.png"
+  },
+  {
+    "name": "Poinsett",
+    "region": "Midlands",
+    "description": "In the High Hills of Santee, where the South Carolina Sandhills of the Midlands region meet the coastal plain region, you’ll find Poinsett State Park.  Called the \"mountains of the midlands,\" this mixed ecosystem yields a high degree of biodiversity and some of the most unique natural sightings in the park system.",
+    "admission": 3.00,
+    "wifi": true,
+    "image": "images/poinsett.png"
+  },
+  {
+    "name": "Santee",
+    "region": "Midlands",
+    "description": "Located in South Carolina’s well-known Santee Cooper Country, Santee State Park sits along Lake Marion. South Carolina locals know the lake for its abundant population of large catfish.",
+    "admission": 3.00,
+    "wifi": true,
+    "image": "images/santee.png"
+  },
+  {
+    "name": "Sesquicentennial",
+    "region": "Midlands",
+    "description": "Sesquicentennial State Park, affectionately known to locals as \"Sesqui,\" is a spacious, green getaway in the heart of the Sandhills region.",
+    "admission": 6.00,
+    "wifi": false,
+    "image": "images/sesqui.png"
+  },
+  {
+    "name": "Table Rock",
+    "region": "Mountains",
+    "description": "Table Rock State Park fits the bill for the natural beauty attributed to scenic Highway 11. The towering mountain, which gives the park its name, serves as a backdrop for the 3,000 acre park and its facilities. Below this section of the Blue Ridge Mountains, South Carolina natives and visitors can enjoy Table Rock State Park cabins, a campground and an old-fashioned swimming hole on one of the park’s two lakes.",
+    "admission": 6.00,
+    "wifi": true,
+    "image": "images/table-rock.png"
+  },
+  {
+    "name": "Woods Bay",
+    "region": "Midlands",
+    "description": "Woods Bay State Park offers a close-up look at one of the last remaining large Carolina Bays on the Mid-Atlantic Coastal Plain. The 1,590-acre park, located in the coastal plains region, features a wide range of habitats including marsh, sandhills, oak-hickory forest and shrub bog.",
+    "admission": 0.00,
+    "wifi": false,
+    "image": "images/woods-bay.png"
+  }
+]
