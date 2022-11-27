@@ -1,17 +1,13 @@
 import "./ParkItem.css"
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 function ParkItem(props) {
-  const [added, setAdded] = useState(false)
+  const [added, setAdded] = useState(props.added)
 
   const handleOnClick = () => {
     setAdded(!added)
     props.onClick(props.item)
   }
-
-  useEffect(() => {
-    setAdded(props.added)
-  }, [props.added])
 
   return (<div className="ParkItem">
     <h3>{props.item.name} State Park</h3>
