@@ -66,7 +66,7 @@ function App() {
       <Navbar className="Navbar" expand="lg" sticky="top">
         <Container className="Navbar-content">
           <Navbar.Brand href="#home">
-            <img className="logo" src="images/south-carolina-parks-logo.png"></img>
+            <img className="logo" src="images/south-carolina-parks-logo.png" alt="South Carolina Parks logo "></img>
           </Navbar.Brand>
           <h1 className="title">Trip Planner</h1>
         </Container>

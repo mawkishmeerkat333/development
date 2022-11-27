@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 
 function Checkbox(props) {
   const [checked, setChecked] = useState(true)
+  
   const handleChange = e => {
     props.filter(e)
     setChecked(!checked)
